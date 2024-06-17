@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-                                
+
 #define BUFSIZE 256
                                 
 // This program prints the size of a specified file in bytes
