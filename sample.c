@@ -13,6 +13,6 @@ int main(int argc, char** argv) {
 	}
 
 	char cmd[BUFSIZE] = "wc -c< ";
-	strncat(cmd,254,argv[1]);
+	strncat(cmd,BUFSIZE-,argv[1]);
 	system(cmd);
 }
